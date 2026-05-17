@@ -54,7 +54,6 @@ APTS-BioGrid integrates seamlessly into existing anaerobic digestion infrastruct
 │ 🔹 Public Audit Ledger -> Mitigating Corruption        │
 └────────────────────────────────────────────────────────┘
 
-
 ---
 
 ## 🛠️ Core Module Engineering
