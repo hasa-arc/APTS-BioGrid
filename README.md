@@ -50,7 +50,7 @@ APTS-BioGrid integrates seamlessly into existing anaerobic digestion infrastruct
 │          REMEDIATION MONITOR (Eco-Grid Dashboard)      │
 ├────────────────────────────────────────────────────────┤
 │ 🔹 Real-Time Log-Reduction Values (LRV) Output        │
-│ 🔹 Immutable Volumetric Efficiency & Pethane Purity    │
+│ 🔹 Immutable Volumetric Efficiency & Methane Purity    │
 │ 🔹 Public Audit Ledger -> Mitigating Corruption        │
 └────────────────────────────────────────────────────────┘
 
