@@ -15,6 +15,8 @@ An AI-integrated wastewater treatment system designed as a **System-of-Systems (
 
 APTS-BioGrid integrates seamlessly into existing anaerobic digestion infrastructure as an intelligent, non-disruptive risk governance layer, operating across three core stages:
 
+```text
+
 [ Raw Feedstock Inflow ] (Poultry, Dairy, Municipal Wastewater)
          │
          ▼
