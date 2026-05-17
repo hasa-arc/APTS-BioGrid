@@ -77,3 +77,40 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ---
 **Contact:** Muhammad Tasnimul Hasan - alhasant99@gmail.com  
 *Project Repository Link: https://github.com/hasa-arc/APTS-BioGrid.git*
+
+```text
+
+---
+
+### Option 2: Use a Mermaid Flowchart (Best for GitHub)
+
+GitHub natively supports **Mermaid.js** diagrams. They render beautifully and never break.
+
+**Example Mermaid code for your diagram:**
+
+```mermaid
+flowchart TD
+    A[Raw Feedstock Inflow<br/>Poultry, Dairy, Municipal Wastewater] --> B[Module F1: Genetic & Metabolic Diagnosis<br/>Gatekeeper]
+    
+    B --> B1[Metagenomic screening<br/>CARD, ResFinder]
+    B --> B2[Plasmid Dynamics Module (PDM)<br/>PCN quantification]
+    B --> B3[Cryptic Gene Sensor (CGS)<br/>Silent genotypes]
+    B --> B4[Metabolic Reprogrammer (MRM)<br/>Disruption mapping]
+    
+    B --> C[Calculated AMR Baseline<br/>& Metabolic Profile]
+    
+    C --> D[Module F3: Biological Remediation<br/>Reactor]
+    
+    D --> D1[Targeted non-antibiotic interventions<br/>Phagemids]
+    D --> D2[ARDO co-culturing<br/>Methanosaeta consortia]
+    D --> D3[Selective pathogen clearance<br/>Stress removal]
+    
+    D --> E[Optimized Methane CH4]
+    D --> F[Certified AMR-Free Slurry]
+    
+    E --> G[Remediation Monitor<br/>Eco-Governance Dashboard]
+    F --> G
+    
+    G --> G1[Real-time Log-Reduction Values LRV]
+    G --> G2[Immutable volumetric efficiency<br/>& methane purity]
+    G --> G3[Public audit ledger<br/>Mitigating corruption]
