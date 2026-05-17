@@ -1,6 +1,3 @@
-# APTS-BioGrid
-An AI-Driven One Health Platform for Simultaneous AMR Remediation and Renewable Biogas Optimization in Bangladesh
-
 # APTS-BioGrid 🧠🌿🔋
 > **An AI-Driven One Health Platform for Simultaneous AMR Remediation and Renewable Biogas Optimization in Bangladesh**
 
@@ -19,41 +16,41 @@ An AI-integrated wastewater treatment system designed as a **System-of-Systems (
 APTS-BioGrid integrates seamlessly into existing anaerobic digestion infrastructure as an intelligent, non-disruptive risk governance layer, operating across three core stages:
 
 [ Raw Feedstock Inflow ] (Poultry, Dairy, Municipal Wastewater)
-           │
-           ▼
+         │
+         ▼
 ┌────────────────────────────────────────────────────────┐
-│     MODULE F1: GENETIC & METABOLIC DIAGNOSIS (Gate)    │
+│ MODULE F1: GENETIC & METABOLIC DIAGNOSIS (Gatekeeper)  │
 ├────────────────────────────────────────────────────────┤
-│ 🔹 Metagenomic Screening via CARD & ResFinder Databases│
-│ 🔹 Plasmid Dynamics Module (PDM) -> PCN Quantification │
-│ 🔹 Cryptic Gene Sensor (CGS) -> Silent Genotypes       │
-│ 🔹 Metabolic Reprogrammer (MRM) -> Disruption Mapping  │
+│ • Metagenomic screening (CARD, ResFinder databases)    │
+│ • Plasmid Dynamics Module (PDM) → PCN quantification   │
+│ • Cryptic Gene Sensor (CGS) → silent genotypes         │
+│ • Metabolic Reprogrammer (MRM) → disruption mapping    │
 └────────────────────────────────────────────────────────┘
-│
-▼  [Calculated AMR Baseline & Metabolic Profile]
+         │
+         ▼ [Calculated AMR Baseline & Metabolic Profile]
 ┌────────────────────────────────────────────────────────┐
-│        MODULE F3: BIOLOGICAL REMEDIATION (Reactor)     │
+│ MODULE F3: BIOLOGICAL REMEDIATION (Reactor)            │
 ├────────────────────────────────────────────────────────┤
-│ 🔹 Targeted Non-Antibiotic Interventions (Phagemids)   │
-│ 🔹 ARDO Co-Culturing (Methanosaeta Consortia)         │
-│ 🔹 Selective Pathogen Clearance -> Stress Removal      │
+│ • Targeted non-antibiotic interventions (phagemids)    │
+│ • ARDO co-culturing (Methanosaeta consortia)           │
+│ • Selective pathogen clearance → stress removal        │
 └────────────────────────────────────────────────────────┘
-│
-┌────────┴────────┐
-▼                 ▼
-[ Optimized Methane ]  [ Certified AMR-Free ]
-[ Output (CH4) ]       [ Slurry / Sludge ]
-│                 │
-└────────┬────────┘
-▼
+         │
+         ├─────────────┬─────────────┐
+         ▼             ▼             ▼
+   [Optimized     [Certified     [Governance
+    Methane]       AMR-Free       Data]
+                   Slurry]
+         │             │
+         └─────────────┘
+               ▼
 ┌────────────────────────────────────────────────────────┐
-│          REMEDIATION MONITOR (Eco-Grid Dashboard)      │
+│ REMEDIATION MONITOR (Eco-Governance Dashboard)        │
 ├────────────────────────────────────────────────────────┤
-│ 🔹 Real-Time Log-Reduction Values (LRV) Output        │
-│ 🔹 Immutable Volumetric Efficiency & Methane Purity    │
-│ 🔹 Public Audit Ledger -> Mitigating Corruption        │
+│ • Real-time Log-Reduction Values (LRV)                 │
+│ • Immutable volumetric efficiency & methane purity     │
+│ • Public audit ledger → mitigating corruption          │
 └────────────────────────────────────────────────────────┘
-
 ---
 
 ## 🛠️ Core Module Engineering
