@@ -15,44 +15,41 @@ An AI-integrated wastewater treatment system designed as a **System-of-Systems (
 
 APTS-BioGrid integrates seamlessly into existing anaerobic digestion infrastructure as an intelligent, non-disruptive risk governance layer, operating across three core stages:
 
-```text
 
-[ Raw Feedstock Inflow ] (Poultry, Dairy, Municipal Wastewater)
-         │
-         ▼
-┌────────────────────────────────────────────────────────┐
-│ MODULE F1: GENETIC & METABOLIC DIAGNOSIS (Gatekeeper)  │
-├────────────────────────────────────────────────────────┤
-│ • Metagenomic screening (CARD, ResFinder databases)    │
-│ • Plasmid Dynamics Module (PDM) → PCN quantification   │
-│ • Cryptic Gene Sensor (CGS) → silent genotypes         │
-│ • Metabolic Reprogrammer (MRM) → disruption mapping    │
-└────────────────────────────────────────────────────────┘
-         │
-         ▼ [Calculated AMR Baseline & Metabolic Profile]
-┌────────────────────────────────────────────────────────┐
-│ MODULE F3: BIOLOGICAL REMEDIATION (Reactor)            │
-├────────────────────────────────────────────────────────┤
-│ • Targeted non-antibiotic interventions (phagemids)    │
-│ • ARDO co-culturing (Methanosaeta consortia)           │
-│ • Selective pathogen clearance → stress removal        │
-└────────────────────────────────────────────────────────┘
-         │
-         ├─────────────┬─────────────┐
-         ▼             ▼             ▼
-   [Optimized     [Certified     [Governance
-    Methane]       AMR-Free       Data]
-                   Slurry]
-         │             │
-         └─────────────┘
-               ▼
-┌────────────────────────────────────────────────────────┐
-│ REMEDIATION MONITOR (Eco-Governance Dashboard)        │
-├────────────────────────────────────────────────────────┤
-│ • Real-time Log-Reduction Values (LRV)                 │
-│ • Immutable volumetric efficiency & methane purity     │
-│ • Public audit ledger → mitigating corruption          │
-└────────────────────────────────────────────────────────┘
+---
+
+### Option 2: Use a Mermaid Flowchart (Best for GitHub)
+
+GitHub natively supports **Mermaid.js** diagrams. They render beautifully and never break.
+
+**Example Mermaid code for your diagram:**
+
+```mermaid
+flowchart TD
+    A[Raw Feedstock Inflow<br/>Poultry, Dairy, Municipal Wastewater] --> B[Module F1: Genetic & Metabolic Diagnosis<br/>Gatekeeper]
+    
+    B --> B1[Metagenomic screening<br/>CARD, ResFinder]
+    B --> B2[Plasmid Dynamics Module (PDM)<br/>PCN quantification]
+    B --> B3[Cryptic Gene Sensor (CGS)<br/>Silent genotypes]
+    B --> B4[Metabolic Reprogrammer (MRM)<br/>Disruption mapping]
+    
+    B --> C[Calculated AMR Baseline<br/>& Metabolic Profile]
+    
+    C --> D[Module F3: Biological Remediation<br/>Reactor]
+    
+    D --> D1[Targeted non-antibiotic interventions<br/>Phagemids]
+    D --> D2[ARDO co-culturing<br/>Methanosaeta consortia]
+    D --> D3[Selective pathogen clearance<br/>Stress removal]
+    
+    D --> E[Optimized Methane CH4]
+    D --> F[Certified AMR-Free Slurry]
+    
+    E --> G[Remediation Monitor<br/>Eco-Governance Dashboard]
+    F --> G
+    
+    G --> G1[Real-time Log-Reduction Values LRV]
+    G --> G2[Immutable volumetric efficiency<br/>& methane purity]
+    G --> G3[Public audit ledger<br/>Mitigating corruption]
 ---
 
 ## 🛠️ Core Module Engineering
