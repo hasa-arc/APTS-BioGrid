@@ -106,4 +106,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 **Contact:** Muhammad Tasnimul Hasan - alhasant99@gmail.com  
-*Project Repository Link: [https://github.com/yourusername/APTS-BioGrid](https://github.com/yourusername/APTS-BioGrid)*
+*Project Repository Link: https://github.com/hasa-arc/APTS-BioGrid.git*
